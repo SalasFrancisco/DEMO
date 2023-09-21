@@ -17,7 +17,7 @@ namespace DEMO
         DataTable tabla;
         public Personas()
         {
-            conector = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=DEMO.mdb");
+            conector = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=C:\\Users\\Alumnos\\source\\repos\\DEMO\\DEMO.mdb");
             comando = new OleDbCommand();
             adaptador = new OleDbDataAdapter(comando);
             tabla = new DataTable();
